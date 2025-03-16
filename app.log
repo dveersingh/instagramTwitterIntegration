@@ -1,0 +1,17 @@
+2025-03-16 02:17:09,622 - app.config - ERROR - X post failed: Consumer key must be string or bytes, not NoneType
+2025-03-16 02:20:17,602 - app.config - ERROR - X post failed: Consumer secret must be string or bytes, not NoneType
+2025-03-16 02:21:30,842 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:26:17,814 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:33:42,535 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:34:36,257 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:36:00,487 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:36:40,708 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:38:26,485 - app.config - ERROR - X post failed: 401 Unauthorized
+Unauthorized
+2025-03-16 02:40:50,785 - app.config - INFO - Tweet posted: 1901018274873344310
