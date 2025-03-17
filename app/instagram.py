@@ -1,4 +1,4 @@
-import requests
+import requests , re
 from .config import logger, INSTAGRAM_USERNAME, RAPIDAPI_KEY
 
 class InstagramClient:
@@ -7,7 +7,7 @@ class InstagramClient:
         self.querystring = {"username":"bbcnews"}
         
         self.headers = {
-            "x-rapidapi-key": "24bca5aa34mshb1d420ebd1d798bp18cfd2jsn25e467b08b8f",
+            "x-rapidapi-key": RAPIDAPI_KEY,
             "x-rapidapi-host": "instagram230.p.rapidapi.com"
         }
         
@@ -31,10 +31,9 @@ class InstagramClient:
                 
 
                 parsed_data = {
-                    "caption": caption_data.get("text", "No caption available"),
+                    "caption":  caption_data.get("text", "No caption available"),
                     "image_url": latest_post.get("display_uri", "No image available"),
                     "id": latest_post.get("id", "No ID available"),
-                    "strong_id": latest_post.get("strong_id__", "No strong ID available"),
                     "timestamp": latest_post.get("taken_at", "No timestamp available"),
                     
                 }

@@ -1,5 +1,6 @@
 import google.generativeai as genai
 from .config import logger, GEMINI_KEY
+import re
 
 genai.configure(api_key=GEMINI_KEY)
 
@@ -10,6 +11,10 @@ class GeminiSummarizer:
     def summarize(self, text, max_length=280):
         """Summarize text for Twitter"""
         try:
+            text = text.encode('utf-8', errors='ignore').decode('utf-8')
+            text = re.sub(r'[“”]', '', cleaned_text)  # Remove special quotes
+            text = re.sub(r'[^\w\s.,!?@#]', '', cleaned_text)
+            
             response = self.model.generate_content(
                 f"Summarize this in under {max_length} characters for Twitter: {text}"
             )

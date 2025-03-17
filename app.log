@@ -15,3 +15,5 @@ Unauthorized
 2025-03-16 02:38:26,485 - app.config - ERROR - X post failed: 401 Unauthorized
 Unauthorized
 2025-03-16 02:40:50,785 - app.config - INFO - Tweet posted: 1901018274873344310
+2025-03-17 06:26:56,976 - app.config - ERROR - Summarization failed: name 'caption' is not defined
+2025-03-17 06:28:09,035 - app.config - INFO - Tweet posted: 1901437863784538212
