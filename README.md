@@ -2,6 +2,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-✅-green) ![Docker](https://img.shields.io/badge/Docker-🐳-blue) ![Google Gemini](https://img.shields.io/badge/Gemini-🤖-orange) ![RapidAPI](https://img.shields.io/badge/RapidAPI-🚀-purple)  
 
+
+## Screenshot 
+![System Diagram](pictures/Screenshot 2025-03-17 062906.png) 
+
+
 Seamlessly integrate Instagram with X (Twitter) using AI-powered summarization and FastAPI.  
 
 ---
